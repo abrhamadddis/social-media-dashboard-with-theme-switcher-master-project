@@ -3,10 +3,13 @@
 module.exports = {
 
   content: ["./src/**/*.html"],
+  darkMode: 'class',
   theme: {
     screens: {
-      sm: '375px',
-      lg: '1440px',
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
     extend: {
       colors: {
