@@ -828,6 +828,11 @@ video {
   color: hsl(228 34% 66% / var(--tw-text-opacity));
 }
 
+.text-darkTheme-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(230 17% 14% / var(--tw-text-opacity));
+}
+
 .text-lightTheme-darkGreyishBlue {
   --tw-text-opacity: 1;
   color: hsl(228 12% 44% / var(--tw-text-opacity));
@@ -838,16 +843,6 @@ video {
   color: hsl(230 22% 74% / var(--tw-text-opacity));
 }
 
-.text-lightTheme-veryDarkBlue {
-  --tw-text-opacity: 1;
-  color: hsl(230 17% 14% / var(--tw-text-opacity));
-}
-
-.text-lightTheme-white {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
 .text-primary-brightRed {
   --tw-text-opacity: 1;
   color: hsl(356 69% 56% / var(--tw-text-opacity));
@@ -856,11 +851,6 @@ video {
 .text-primary-limeGreen {
   --tw-text-opacity: 1;
   color: hsl(163 72% 41% / var(--tw-text-opacity));
-}
-
-.text-darkTheme-veryDarkBlue {
-  --tw-text-opacity: 1;
-  color: hsl(230 17% 14% / var(--tw-text-opacity));
 }
 
 .slide {
@@ -911,6 +901,11 @@ video {
 }
 
 :is(.dark .dark\:text-darkTheme-white) {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-lightTheme-white) {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
