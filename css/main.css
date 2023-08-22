@@ -838,6 +838,11 @@ video {
   color: hsl(230 22% 74% / var(--tw-text-opacity));
 }
 
+.text-lightTheme-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(230 17% 14% / var(--tw-text-opacity));
+}
+
 .text-lightTheme-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
@@ -851,6 +856,11 @@ video {
 .text-primary-limeGreen {
   --tw-text-opacity: 1;
   color: hsl(163 72% 41% / var(--tw-text-opacity));
+}
+
+.text-darkTheme-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(230 17% 14% / var(--tw-text-opacity));
 }
 
 .slide {
