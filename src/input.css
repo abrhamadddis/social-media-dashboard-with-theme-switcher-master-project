@@ -4,9 +4,9 @@
 
 .slide {
 
-    transform: translateX(28px);
+    transform: translateX(27px);
 
 }
 .slideback{
-    transform:translateX(-28px)
+    transform:translateX(-27px)
 }

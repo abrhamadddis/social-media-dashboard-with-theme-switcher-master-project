@@ -591,20 +591,8 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
 .mt-96 {
   margin-top: 24rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .flex {
@@ -621,10 +609,6 @@ video {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-2 {
-  height: 0.5rem;
 }
 
 .w-6 {
@@ -711,6 +695,11 @@ video {
   border-color: hsl(348 97% 39% / var(--tw-border-opacity));
 }
 
+.bg-darkTheme-veryDarkBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
+}
+
 .bg-lightTheme-darkGreyishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(228 12% 44% / var(--tw-bg-opacity));
@@ -724,11 +713,6 @@ video {
 .bg-lightTheme-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.bg-darkTheme-veryDarkBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -804,10 +788,6 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-0 {
-  padding-top: 0px;
-}
-
 .font-sans {
   font-family: Inter, sans-serif;
 }
@@ -870,11 +850,11 @@ video {
 }
 
 .slide {
-  transform: translateX(28px);
+  transform: translateX(27px);
 }
 
 .slideback{
-  transform:translateX(-28px)
+  transform:translateX(-27px)
 }
 
 .hover\:bg-lightTheme-lightGreyishBlue:hover {
@@ -887,6 +867,11 @@ video {
   background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-darkTheme-desaturatedBlue) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 34% 66% / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:bg-darkTheme-veryDarkBlue) {
   --tw-bg-opacity: 1;
   background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
@@ -895,21 +880,6 @@ video {
 :is(.dark .dark\:bg-darkTheme-veryDarkBlueTopBg) {
   --tw-bg-opacity: 1;
   background-color: hsl(232 19% 15% / var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-white) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-darkTheme-white) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-darkTheme-desaturatedBlue) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(228 34% 66% / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-gradient-to-r) {
